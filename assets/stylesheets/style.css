@@ -63,7 +63,10 @@ h2 {
   padding: 0;
   position: relative;
   top: 40px;
-  left: 240px;
+  left: 180px;
+}
+button {
+  margin: 0;
 }
 
 ul {
