@@ -12,6 +12,7 @@ body {
   padding: 1%;
   margin: 10%;
   border: 1px solid black;
+  font-family: Arial, Helvetica, sans-serif;
 }
 header {
   background-color: beige;
@@ -82,40 +83,45 @@ li {
 .maindiv {
   border: 1px solid black;
   width: 850px;
-  height: 1500px;
+  height: 1310px;
   margin: auto;
   position: relative;
 }
 
-.divclass1 {
+.divclassleft {
   border: 1px solid grey;
   background-color: beige;
+  padding: 5px;
   width: 328px;
   height: 300px;
-  margin: 0;
+  margin: 5px 0;
   float: left;
 }
 
-.divclass2 {
+.divclassright {
   border: 1px solid grey;
   background-color: beige;
+  padding: 5px;
   width: 512px;
   height: 300px;
-  margin: 0;
+  margin: 5px 0;
   float: right;
 }
 
+.aboutjohndoe {
+  height: 220px;
+}
 #aboutjohndoe1 {
   border-bottom: 1px solid grey;
-  height: 15px;
+  height: 10px;
 }
 
 #aboutjohndoe2 {
-  height: 15px;
+  height: 10px;
 }
 
 #aboutjohndoe3 {
-  height: 170px;
+  height: 100px;
 }
 
 #aboutjohndoe4 {
@@ -124,29 +130,288 @@ li {
 }
 
 #changedcoverphoto1 {
+  color: gray;
   border-bottom: 1px solid grey;
+  padding: 0;
   height: 60px;
+}
+
+#changedcoverphoto2 {
+  background-color: rgb(66, 103, 178);
+  height: 155px;
+}
+
+#changedcoverphoto3 {
+  color: rgb(66, 103, 178);
+  border-top: 1px solid grey;
+  padding-top: 5px;
+  height: 15px;
 }
 
 #thumbnail {
   position: relative;
-  top: 0px;
+  top: -3px;
   left: 10px;
 }
 
 #changedcp1 {
   position: relative;
-  top: -10px;
+  top: -25px;
   left: 20px;
 }
 
 #changedcp2 {
   position: relative;
-  top: -10px;
+  top: -25px;
   left: 65px;
 }
 
-footer {
+.about {
+  height: 160px;
+}
+
+#about1 {
+  height: 15px;
+  padding: 0 10px;
+  font-weight: bold;
+}
+
+#about2 {
+  color: rgb(66, 103, 178);
+  position: relative;
+  top: -10px;
+}
+
+#hradress {
+  border-top: 1px solid grey;
+  padding: 0;
+  height: 60px;
+}
+
+#pushpin {
+  float: left;
+  padding: 0 5px;
+  height: 25px;
+  width: 25px;
+}
+
+#address1 {
+  position: relative;
+  top: -22px;
+}
+
+#address2 {
+  position: relative;
+  top: -18px;
+}
+
+#hrphone {
+  border-top: 1px solid grey;
+}
+
+#phone {
+  float: left;
+  height: 25px;
+  width: 25px;
+}
+
+#phonenumber {
+  position: relative;
+  top: 3px;
+}
+
+.johndoeposted {
+  height: 220px;
+}
+
+#johndoeposted1 {
+  color: gray;
+  border-bottom: 1px solid grey;
+  padding: 0;
+  height: 60px;
+}
+
+#posted1 {
+  position: relative;
+  top: -25px;
+  left: 20px;
+}
+
+#posted2 {
+  position: relative;
+  top: -25px;
+  left: 65px;
+}
+
+#posted4 {
+  color: rgb(66, 103, 178);
+  border-top: 1px solid grey;
+  padding-top: 5px;
+  height: 15px;
+}
+
+.apps {
+  height: 455px;
+}
+
+#apps1 {
+  color: rgb(66, 103, 178);
+  border-bottom: 1px solid grey;
+}
+
+#apps3 {
+  margin-left: 10px;
+}
+
+#appswelcome1 {
+  border-bottom: 1px solid grey;
+}
+
+#appswelcome2 {
+  background-color: rgb(66, 103, 178);
+  margin-left: 5px;
+  width: 140px;
+  height: 100px;
+}
+
+#appswelcome3 {
+  position: relative;
+  top: 40px;
+  left: 160px;
+}
+
+#appsfwb1 {
+  border-bottom: 1px solid grey;
+}
+
+#appsfwb2 {
+  background-color: rgb(66, 103, 178);
+  margin-left: 5px;
+  width: 140px;
+  height: 100px;
+}
+
+#appsfwb3 {
+  position: relative;
+  top: 40px;
+  left: 160px;
+}
+
+#appslivestream2 {
+  background-color: rgb(66, 103, 178);
+  margin-left: 5px;
+  width: 140px;
+  height: 100px;
+}
+
+#appslivestream3 {
+  position: relative;
+  top: 40px;
+  left: 160px;
+}
+
+.jdevent {
+  height: 520px;
+}
+
+#jdevent1 {
+  color: gray;
+  border-bottom: 1px solid grey;
+}
+
+#jdevent2 {
+  position: relative;
+  top: -25px;
+  left: 20px;
+}
+
+#jdevent3 {
+  position: relative;
+  top: -25px;
+  left: 65px;
+}
+
+#jdevent4 {
+  background-color: rgb(66, 103, 178);
+  width: 490px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+#jdeventname {
+  height: 100px;
+  margin: 0 5px;
+  padding: 10px;
+  border: 1px solid grey;
+  color: gray;
+}
+
+#jdeventname1 {
+  color: rgb(66, 103, 178);
+}
+
+#jdeventname2 {
+  position: relative;
+  top: -10px;
+}
+
+#jdeventname3 {
+  position: relative;
+  top: -25px;
+}
+
+.photos {
+  height: 390px;
+}
+
+#photos1 {
+  color: rgb(66, 103, 178);
+  border-bottom: 1px solid grey;
+}
+
+#photocontainer {
+  margin-top: 10px;
+  padding: 2.5px;
+}
+
+.jdpostedagain {
+  height: 220px;
+}
+
+#jdpostedagain1 {
+  color: gray;
+  border-bottom: 1px solid grey;
+  padding: 0;
+  height: 60px;
+}
+
+#jdpostedagain2 {
+  position: relative;
+  top: -25px;
+  left: 20px;
+}
+
+#jdpostedagain3 {
+  position: relative;
+  top: -25px;
+  left: 65px;
+}
+
+#jdpostedagain5 {
+  color: rgb(66, 103, 178);
+  border-top: 1px solid grey;
+  padding-top: 5px;
+  height: 15px;
+}
+
+.footer {
   font-size: small;
   color: grey;
+  position: relative;
+  padding: 0 5px;
+}
+
+#footer2 {
+  position: relative;
+  top: -10px;
 }
