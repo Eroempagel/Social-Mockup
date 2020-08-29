@@ -1,7 +1,152 @@
-table,
-td,
-th {
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: black;
+}
+
+body {
+  position: relative;
+  background-color: lightgray;
+  padding: 1%;
+  margin: 10%;
   border: 1px solid black;
-  border-collapse: collapse;
-  padding: 0.25rem;
+}
+header {
+  background-color: beige;
+  width: 850px;
+  height: 360px;
+  margin: 0 auto;
+  position: relative;
+  border: 1px solid black;
+}
+
+.headerdiv {
+  background-color: rgb(66, 103, 178);
+  width: 850px;
+  height: 310px;
+  margin: auto;
+}
+
+.profilepic {
+  border: 1px solid black;
+  position: relative;
+  top: 180px;
+  left: 20px;
+}
+
+h2 {
+  position: relative;
+  color: aqua;
+  top: 50px;
+  left: 190px;
+}
+
+.headerclass {
+  position: relative;
+  font-size: larger;
+  color: aqua;
+  top: 50px;
+  left: 190px;
+}
+
+.nav1 {
+  position: relative;
+  top: 15px;
+  text-align: right;
+}
+
+.nav2 {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 40px;
+  left: 240px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  padding: 5px 20px;
+  margin: 0;
+  border: 1px solid black;
+  background-color: beige;
+}
+
+.maindiv {
+  border: 1px solid black;
+  width: 850px;
+  height: 1500px;
+  margin: auto;
+  position: relative;
+}
+
+.divclass1 {
+  border: 1px solid grey;
+  background-color: beige;
+  width: 328px;
+  height: 300px;
+  margin: 0;
+  float: left;
+}
+
+.divclass2 {
+  border: 1px solid grey;
+  background-color: beige;
+  width: 512px;
+  height: 300px;
+  margin: 0;
+  float: right;
+}
+
+#aboutjohndoe1 {
+  border-bottom: 1px solid grey;
+  height: 15px;
+}
+
+#aboutjohndoe2 {
+  height: 15px;
+}
+
+#aboutjohndoe3 {
+  height: 170px;
+}
+
+#aboutjohndoe4 {
+  border-top: 1px solid grey;
+  height: 15px;
+}
+
+#changedcoverphoto1 {
+  border-bottom: 1px solid grey;
+  height: 60px;
+}
+
+#thumbnail {
+  position: relative;
+  top: 0px;
+  left: 10px;
+}
+
+#changedcp1 {
+  position: relative;
+  top: -10px;
+  left: 20px;
+}
+
+#changedcp2 {
+  position: relative;
+  top: -10px;
+  left: 65px;
+}
+
+footer {
+  font-size: small;
+  color: grey;
 }
