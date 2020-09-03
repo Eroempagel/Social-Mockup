@@ -58,13 +58,23 @@ h2 {
   text-align: right;
 }
 
+.nav1 a {
+  text-decoration: none;
+}
+
 .nav2 {
   margin: 0;
   padding: 0;
   position: relative;
   top: 40px;
   left: 180px;
+  text-decoration: none;
 }
+
+.nav2 a {
+  text-decoration: none;
+}
+
 button {
   margin: 0;
 }
@@ -149,6 +159,10 @@ li {
   border-top: 1px solid grey;
   padding-top: 5px;
   height: 15px;
+}
+
+.johndoechangedtheircoverphoto a {
+  text-decoration: none;
 }
 
 #thumbnail {
@@ -251,6 +265,10 @@ li {
   border-top: 1px solid grey;
   padding-top: 5px;
   height: 15px;
+}
+
+.johndoeposted a {
+  text-decoration: none;
 }
 
 .apps {
@@ -407,11 +425,19 @@ li {
   height: 15px;
 }
 
+.jdpostedagain a {
+  text-decoration: none;
+}
+
 .footer {
   font-size: small;
   color: grey;
   position: relative;
   padding: 0 5px;
+}
+
+.footer a {
+  text-decoration: none;
 }
 
 #footer2 {
