@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 
+/*********************************** 
+*      some decoration to make     *
+*     it look similar to a page    *
+*                                  *
+************************************/
+
 html {
   background-color: black;
 }
@@ -14,6 +20,12 @@ body {
   border: 1px solid black;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/*********************************** 
+*         header section           *
+*                                  *
+************************************/
+
 header {
   background-color: beige;
   width: 850px;
@@ -51,6 +63,11 @@ h2 {
   top: 50px;
   left: 190px;
 }
+
+/*********************************** 
+*    header navigation section     *
+*                                  *
+************************************/
 
 .nav1 {
   position: relative;
@@ -91,15 +108,28 @@ li {
   margin: 0;
   border: 1px solid black;
   background-color: beige;
+  font-weight: bold;
 }
+
+/*********************************** 
+*        full page container       *
+*         minus the header         *
+*                                  *
+************************************/
 
 .maindiv {
   border: 1px solid black;
   width: 850px;
-  height: 1310px;
+  height: 1315px;
+  padding-top: 5px;
   margin: auto;
   position: relative;
 }
+
+/*********************************** 
+*      left column containers      *
+*                                  *
+************************************/
 
 .divclassleft {
   border: 1px solid grey;
@@ -111,6 +141,11 @@ li {
   float: left;
 }
 
+/*********************************** 
+*      right column containers     *
+*                                  *
+************************************/
+
 .divclassright {
   border: 1px solid grey;
   background-color: beige;
@@ -120,6 +155,12 @@ li {
   margin: 5px 0;
   float: right;
 }
+
+/*********************************** 
+*             About JD             *
+*              Section             *
+*                                  *
+************************************/
 
 .aboutjohndoe {
   height: 220px;
@@ -141,6 +182,16 @@ li {
   border-top: 1px solid grey;
   height: 15px;
 }
+
+.aboutjohndoe a {
+  text-decoration: none;
+}
+
+/*********************************** 
+*    JD changed his cover photo    *
+*             Section              *
+*                                  *
+************************************/
 
 #changedcoverphoto1 {
   color: gray;
@@ -182,6 +233,12 @@ li {
   top: -25px;
   left: 65px;
 }
+
+/*********************************** 
+*       A little more About JD     *
+*              Section             *
+*                                  *
+************************************/
 
 .about {
   height: 160px;
@@ -237,6 +294,11 @@ li {
   top: 3px;
 }
 
+/*********************************** 
+*        JD posted Section         *
+*                                  *
+************************************/
+
 .johndoeposted {
   height: 220px;
 }
@@ -270,6 +332,12 @@ li {
 .johndoeposted a {
   text-decoration: none;
 }
+
+/*********************************** 
+*        JD's favorite Apps        *
+*             Section              *
+*                                  *
+************************************/
 
 .apps {
   height: 455px;
@@ -331,6 +399,12 @@ li {
   left: 160px;
 }
 
+/*********************************** 
+*      JD is hosting an event,     *
+*   be there or be square Section  *
+*                                  *
+************************************/
+
 .jdevent {
   height: 520px;
 }
@@ -381,6 +455,11 @@ li {
   top: -25px;
 }
 
+/*********************************** 
+*        JD's Photo Gallery        *
+*                                  *
+************************************/
+
 .photos {
   height: 390px;
 }
@@ -394,6 +473,12 @@ li {
   margin-top: 10px;
   padding: 2.5px;
 }
+
+/*********************************** 
+*        JD's gone and done it     *
+*          he posted again         *
+*                                  *
+************************************/
 
 .jdpostedagain {
   height: 220px;
@@ -428,6 +513,11 @@ li {
 .jdpostedagain a {
   text-decoration: none;
 }
+
+/*********************************** 
+*          Footer Section          *
+*                                  *
+************************************/
 
 .footer {
   font-size: small;
