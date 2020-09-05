@@ -119,6 +119,18 @@ h2 {
   position: relative;
 }
 
+/******************************************************************
+* Have a two column layout with correct column size and spacing.  *
+* Styles: Borders, L. Column: 328px & R. Column 512px.,           *
+* space between 10px                                              *
+*                                                                 *
+* - resided the width of left col to 326 to accomodate the border *
+*   so total width for left col is 328px                          *
+* - did the same for right col to 510px to accomodate the border  *
+*   width as well so total width is 512px                         *
+*   in theory spacing between columns should now be 10px          *
+******************************************************************/
+
 /*********************************** 
 *      left column containers      *
 *                                  *
@@ -128,7 +140,7 @@ h2 {
   border: 1px solid grey;
   background-color: beige;
   padding: 5px;
-  width: 328px;
+  width: 326px;
   height: 300px;
   margin: 5px 0;
   float: left;
@@ -143,7 +155,7 @@ h2 {
   border: 1px solid grey;
   background-color: beige;
   padding: 5px;
-  width: 512px;
+  width: 510px;
   height: 300px;
   margin: 5px 0;
   float: right;
