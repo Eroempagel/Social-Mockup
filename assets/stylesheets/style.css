@@ -129,6 +129,9 @@ h2 {
 * - did the same for right col to 510px to accomodate the border  *
 *   width as well so total width is 512px                         *
 *   in theory spacing between columns should now be 10px          *
+*   should I have taken into account width of body border?        *
+*   adjusted col left to 325 and col right 509                    *
+*   should be 10px theoretically between now                      *
 ******************************************************************/
 
 /*********************************** 
@@ -140,7 +143,7 @@ h2 {
   border: 1px solid grey;
   background-color: beige;
   padding: 5px;
-  width: 326px;
+  width: 325px;
   height: 300px;
   margin: 5px 0;
   float: left;
@@ -155,7 +158,7 @@ h2 {
   border: 1px solid grey;
   background-color: beige;
   padding: 5px;
-  width: 510px;
+  width: 509px;
   height: 300px;
   margin: 5px 0;
   float: right;
